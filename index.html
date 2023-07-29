@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.ico" type="image-/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__head"></div>
+            <div class="container">
+                <div class="header__head-inner">
+                    <a class="burger"><span></span></a>
+                    <nav class="header__nav">
+                        <div class="header__nav-items">
+                            <a class="header__nav-link" href="#">
+                                <img class="header__nav-logo svg-logo-dims" src="images/sprite.svg#logo" alt="logo">
+                            </a>
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#sale">Акции</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#masters">Мастера</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#service">Услуги</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#gallery">Галерея</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__nav-info">
+                            <a class="header__nav-tel" href="tel:+79992342323">+7 (999) 234 - 23 - 23</a>
+                            <p class="header__nav-text">Ежедневно с 9:00 до 18:00</p>
+                        </div>
+                    </nav>
+                </div>
+        
+            </div>
+            <section class="header__body">
+                <div class="container">
+                    <div class="header__body-inner">
+                        <div class="header__body-content">
+                            <h1 class="header__body-title">Позволь себе быть прекрасной</h1>
+                            <a class="header__body-btn button popup-link" href="#popup">Онлайн запись</a>
+                        </div>
+                        <div class="header__body-img-box">
+                            <picture>
+                                <source srcset="images/head-img.avif" type="image/avif" media="all">
+                                <source srcset="images/head-img.webp" type="image/webp" media="all">
+                                <img src="images/head-img.jpg" loading="lazy" alt="Изображение девушки">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <section class="sale" id="sale">
+                <div class="container">
+                    <div class="sale__inner">
+                        <ul class="sale__about-list">
+                            <li class="sale__list-item sale__list-item--caring">Заботливые
+                                мастера</li>
+                            <li class="sale__list-item sale__list-item--pin">Рядом
+                                с метро</li>
+                            <li class="sale__list-item sale__list-item--sofa">Уютная атмосфера</li>
+                        </ul>
+                        <div class="sale__content">
+                            <picture>
+                                <source srcset="images/makeup-img.avif" type="image/avif" media="all">
+                                <source srcset="images/makeup-img.webp" type="image/webp" media="all">
+                                <img class="sale__img" src="images/makeup-img.jpg" loading="lazy" alt="makeup sale">
+                            </picture>
+                            <div class="sale__info">
+                                <h3 class="sale__info-title">Скидка 30%</h3>
+                                <p class="sale__info-item">на весь макияж</p>
+                                <p class="sale__info-text">предложение ограничено
+                                    и действует до 07.07.2023</p>
+                                <a class="sale__info-btn button popup-link" href="#popup">Онлайн запись</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="masters" id="masters">
+                <div class="container">
+                    <div class="masters__inner">
+                        <h2 class="masters__title">Наши мастера</h2>
+                        <div class="masters__slider">
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/1.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/1.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/1.jpg" loading="lazy" alt="Мастер Сергей">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Сергей</h4>
+                                    <p class="masters__slider-description">парикмахер - стилист опыт работы 5 лет</p>
+                                </div>
+                            </div>
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/2.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/2.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/2.jpg" loading="lazy" alt="Мастер Евгений">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Евгений</h4>
+                                    <p class="masters__slider-description">парикмахер - визажист опыт работы 9 лет</p>
+                                </div>
+                            </div>
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/3.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/3.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/3.jpg" loading="lazy" alt="Мастер Павел">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Павел</h4>
+                                    <p class="masters__slider-description">парикмахер - стилист опыт работы 3 года</p>
+                                </div>
+                            </div>
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/4.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/4.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/4.jpg" loading="lazy" alt="Мастер Элеонора">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Элеонора</h4>
+                                    <p class="masters__slider-description">парикмахер - визажист опыт работы 6 лет</p>
+                                </div>
+                            </div>
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/1.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/1.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/1.jpg" loading="lazy" alt="Мастер Сергей">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Сергей</h4>
+                                    <p class="masters__slider-description">парикмахер - стилист опыт работы 5 лет</p>
+                                </div>
+                            </div>
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/2.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/2.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/2.jpg" loading="lazy" alt="Мастер Евгений">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Евгений</h4>
+                                    <p class="masters__slider-description">парикмахер - визажист опыт работы 9 лет</p>
+                                </div>
+                            </div>
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/3.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/3.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/3.jpg" loading="lazy" alt="Мастер Павел">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Павел</h4>
+                                    <p class="masters__slider-description">парикмахер - стилист опыт работы 3 года</p>
+                                </div>
+                            </div>
+                            <div class="masters__slider-item">
+                                <picture>
+                                    <source srcset="images/workers/4.avif" type="image/avif" media="all">
+                                    <source srcset="images/workers/4.webp" type="image/webp" media="all">
+                                    <img class="masters__slider-img" src="images/workers/4.jpg" loading="lazy" alt="Мастер Элеонора">
+                                </picture>
+                                <div class="masters__slider-info">
+                                    <h4 class="masters__slider-name">Элеонора</h4>
+                                    <p class="masters__slider-description">парикмахер - визажист опыт работы 6 лет</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="masters__slider-btn button popup-link" href="#popup">Онлайн запись</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="prices" id="service">
+                <div class="container">
+                    <div class="prices__inner">
+                        <div class="prices__accordion">
+                            <button class="prices__accordion-heading">
+                                Парикмахерские услуги
+                                <span class="prices__accordion-btn"></span>
+                            </button>
+                            <div class="prices__accordion-list-wrapper">
+                                <div class="prices__accordion-list">
+                                    <button class="prices__accordion-heading-table">
+                                        Женский зал
+                                        <span class="prices__list-btn"></span>
+                                    </button>
+                                    <div class="prices__list">
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">СТРИЖКА (мытье головы, стрижка, сушка)
+                                                </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">короткие</td>
+                                                <td class="prices__list-price">450</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">средние</td>
+                                                <td class="prices__list-price">550</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">длинные</td>
+                                                <td class="prices__list-price">650</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ПРИЧЕСКА </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">короткие</td>
+                                                <td class="prices__list-price">950</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">средние</td>
+                                                <td class="prices__list-price">1200</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">длинные</td>
+                                                <td class="prices__list-price">1400</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">УКЛАДКА ФЕНОМ </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">короткие</td>
+                                                <td class="prices__list-price">450</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">средние</td>
+                                                <td class="prices__list-price">550</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">длинные</td>
+                                                <td class="prices__list-price">650</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ПРИЧЕСКА СВАДЕБНАЯ </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">короткие</td>
+                                                <td class="prices__list-price">900</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">средние</td>
+                                                <td class="prices__list-price">1200</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">длинные</td>
+                                                <td class="prices__list-price">1400</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">УКЛАДКА С УТЮЖКОМ </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">короткие</td>
+                                                <td class="prices__list-price">500</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">средние</td>
+                                                <td class="prices__list-price">700</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">длинные</td>
+                                                <td class="prices__list-price">800</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title"> </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">стрижка челки</td>
+                                                <td class="prices__list-price">100</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">плетение(1 элемент)</td>
+                                                <td class="prices__list-price">100</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <button class="prices__accordion-heading-table">
+                                        Детский зал
+                                        <span class="prices__list-btn"></span>
+                                    </button>
+                                    <div class="prices__list">
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ДЕТСКАЯ СТРИЖКА</th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">до 5 лет</td>
+                                                <td class="prices__list-price">250</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">от 5 до 10</td>
+                                                <td class="prices__list-price">350</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ПРИЧЕСКА ДЕТСКАЯ </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">средняя длина</td>
+                                                <td class="prices__list-price">350</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">длинные волосы</td>
+                                                <td class="prices__list-price">450</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <button class="prices__accordion-heading-table">
+                                        Мужской зал
+                                        <span class="prices__list-btn"></span>
+                                    </button>
+                                    <div class="prices__list">
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title"></th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Стрижка спортивная</td>
+                                                <td class="prices__list-price">400</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Стрижка модельная (креатив)</td>
+                                                <td class="prices__list-price">500</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Стрижка под расческу</td>
+                                                <td class="prices__list-price">250</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Коррекция стрижки</td>
+                                                <td class="prices__list-price">250</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Укладка</td>
+                                                <td class="prices__list-price">250</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Стрижка бороды</td>
+                                                <td class="prices__list-price">200</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="prices__accordion-heading">
+                                Услуги визажиста
+                                <span class="prices__accordion-btn"></span>
+                            </button>
+                            <div class="prices__accordion-list-wrapper">
+                                <div class="prices__accordion-list">
+                                    <button class="prices__accordion-heading-table">
+                                        Женский зал
+                                        <span class="prices__list-btn"></span>
+                                    </button>
+                                    <div class="prices__list">
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ПРОФЕССИОНАЛЬНЫЙ МАКИЯЖ </th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Макияж камуфляж</td>
+                                                <td class="prices__list-price">1800</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Макияж дневной</td>
+                                                <td class="prices__list-price">4200</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Макияж вечерний</td>
+                                                <td class="prices__list-price">5500</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Макияж подиумный или для фотосессий</td>
+                                                <td class="prices__list-price">6000</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ЛАМИНИРОВАНИЕ РЕСНИЦ</th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Ламинирование ресниц</td>
+                                                <td class="prices__list-price">5000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Ламинирование бровей</td>
+                                                <td class="prices__list-price">5000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Ламинирование ресниц + ботокс для ресниц
+                                                </td>
+                                                <td class="prices__list-price">6000</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ОФОРМЛЕНИЕ БРОВЕЙ</th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Окрашивание бровей хной</td>
+                                                <td class="prices__list-price">1500</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Окрашивание бровей краской</td>
+                                                <td class="prices__list-price">1500</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title">ПРОФЕССИОНАЛЬНОЕ НАРАЩИВАНИЕ РЕСНИЦ</th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Наращивание ресниц классика</td>
+                                                <td class="prices__list-price">6000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Наращивание ресниц 2D</td>
+                                                <td class="prices__list-price">6500</td>
+                                            </tr>
+                                        </table>
+                                        <table class="prices__list-table">
+                                            <tr>
+                                                <th class="prices__list-title"></th>
+                                                <th class="prices__list-price">Цена</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="prices__list-text">Ламинирование бровей</td>
+                                                <td class="prices__list-price">5000</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection" id="gallery">
+                <div class="container-fluid">
+                    <div class="collection__btn-box">
+                        <button class="collection__btn button" type="button" data-filter="all">Все</button>
+                        <button class="collection__btn button" type="button" data-filter=".hairstyle">Прически</button>
+                        <button class="collection__btn button" type="button" data-filter=".makeup">Макияж</button>
+                    </div>
+                    <div class="collection__inner">
+                        <picture class="collection__img mix hairstyle">
+                            <source srcset="images/content/collection-1.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-1.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-1.jpg" loading="lazy" alt="фото посетителей" data-order="1">
+                        </picture>
+                        <picture class="collection__img mix hairstyle">
+                            <source srcset="images/content/collection-2.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-2.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-2.jpg" loading="lazy" alt="фото посетителей" data-order="2">
+                        </picture>
+                        <picture class="collection__img mix hairstyle">
+                            <source srcset="images/content/collection-3.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-3.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-3.jpg" loading="lazy" alt="фото посетителей" data-order="3">
+                        </picture>
+                        <picture class="collection__img mix hairstyle">
+                            <source srcset="images/content/collection-4.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-4.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-4.jpg" loading="lazy" alt="фото посетителей" data-order="4">
+                        </picture>
+                        <picture class="collection__img mix hairstyle">
+                            <source srcset="images/content/collection-5.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-5.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-5.jpg" loading="lazy" alt="фото посетителей" data-order="5">
+                        </picture>
+                        <picture class="collection__img mix makeup">
+                            <source srcset="images/content/collection-6.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-6.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-6.jpg" loading="lazy" alt="фото посетителей" data-order="6">
+                        </picture>
+                        <picture class="collection__img mix makeup">
+                            <source srcset="images/content/collection-7.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-7.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-7.jpg" loading="lazy" alt="фото посетителей" data-order="7">
+                        </picture>
+                        <picture class="collection__img mix makeup">
+                            <source srcset="images/content/collection-8.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-8.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-8.jpg" loading="lazy" alt="фото посетителей" data-order="8">
+                        </picture>
+                        <picture class="collection__img mix makeup">
+                            <source srcset="images/content/collection-9.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-9.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-9.jpg" loading="lazy" alt="фото посетителей" data-order="9">
+                        </picture>
+                        <picture class="collection__img mix makeup">
+                            <source srcset="images/content/collection-10.avif" type="image/avif" media="all">
+                            <source srcset="images/content/collection-10.webp" type="image/webp" media="all">
+                            <img src="images/content/collection-10.jpg" loading="lazy" alt="фото посетителей" data-order="10">
+                        </picture>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <button class="popup__close close-popup" type="button"><img class="popup__btn-icon "
+                                src="images/sprite.svg#cross" alt=""></button>
+                        <div class="popup__inner">
+                            <div class="popup__about">
+                                <p class="popup__text">Для записи вы можете позвонить по номеру:</p>
+                                <a class="popup__tel" href="tel:+79992342323">+7 (999) 234 - 23 - 23</a>
+                                <p class="popup__text">или записаться онлайн в форме
+                                    ниже самостоятельно</p>
+                                <p class="popup__text">Мы работаем <br>
+                                    ежедневно с 9:00 до 18:00</p>
+                            </div>
+                        </div>
+                        <div class="popup__form-wrapper">
+                            <h2 class="popup__form-title">Онлайн запись</h2>
+                            <div class="popup__message" id="message"></div>
+                            <form class="popup__form" id="form1">
+                                <input class="popup__input" id="popup__name" type="text" placeholder="Ваше имя" required>
+                                <input class="popup__input" id="popup__tel" type="tel" placeholder="Номер телефона" required>
+                                <input class="popup__input" id="popup__date" type="date" required>
+                                <select class="popup__select" id="popup__service" required>
+                                    <option value="">Выберите услугу</option>
+                                    <option value="Парикмахерские услуги">Парикмахерские услуги</option>
+                                    <option value="Услуги визажиста">Услуги визажиста</option>
+                                </select>
+                                <input class="popup__input" id="popup__time" type="time" required>
+                                <select class="popup__select" id="popup__master" required>
+                                    <option value="">Выберите мастера</option>
+                                    <option value="Сергей Греков">Сергей Греков</option>
+                                    <option value="Евгений Анотов">Евгений Анотов</option>
+                                    <option value="Павел Речков">Павел Речков</option>
+                                    <option value="Элеонора Штрауц">Элеонора Штрауц</option>
+                                </select>
+                            </form>
+                            <button class="popup__btn button" type="submit" form="form1">Онлайн запись</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" id="access-popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <button class="popup__close close-popup" type="button"><img class="popup__btn-icon "
+                            src="images/sprite.svg#cross" alt=""></button>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h3 class="footer__item-title">E-mail :</h3>
+                            <a class="footer__item-text" href="mailto:HandScissors@gmail.com">HandScissors@gmail.com</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <h3 class="footer__item-title">Москва</h3>
+                            <p class="footer__item-text">Тверская улица, 9</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <ul class="footer__socials">
+                                <li class="footer__socials-item">
+                                    <a class="footer__social-link" href="#">
+                                        <img src="images/sprite.svg#facebook" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="footer__socials-item">
+                                    <a class="footer__social-link" href="#">
+                                        <img src="images/sprite.svg#instagram" alt="instagram">
+                                    </a>
+                                </li>
+                                <li class="footer__socials-item">
+                                    <a class="footer__social-link" href="#">
+                                        <img src="images/sprite.svg#whatsapp" alt="whatsapp">
+                                    </a>
+                                </li>
+                                <li class="footer__socials-item">
+                                    <a class="footer__social-link" href="#">
+                                        <img src="images/sprite.svg#youtube" alt="youtube">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-title" href="tel:+79992342323">+7 (999) 234 - 23 - 23</a>
+                            <p class="footer__item-text">Ежедневно с 9:00 до 22:00</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script defer src="js/main.min.js"></script>
+</body>
+
+</html>
